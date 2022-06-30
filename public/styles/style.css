@@ -1,0 +1,39 @@
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #1ab26b;
+}
+
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/spotify-background.jpeg");
+    /* Set a specific height */
+    height: 90vh;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+#hero-div{
+    width: 50vw;
+}
+.form-control{
+    width: 100%;
+}
+
+.btn-primary{
+    background-color: #1ab26b;
+    border: #109959;
+}
+
+.btn-primary:hover{
+    background-color: #109959;
+    border: #109959;
+}
+
