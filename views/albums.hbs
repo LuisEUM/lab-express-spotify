@@ -1,0 +1,21 @@
+<div class="d-flex justify-content-center align-items-center">
+    <div class="d-flex justify-content-center bg-gradient shadow rounded p-4 col-sm-8">
+        <div class="row">
+            <hr>
+                <h1 class="mb-4 text-center">Albums</h1>
+                {{#each albums as |album|}}
+                    <div class="col-3">
+                        <div class="card mb-4 shadow d-flex justify-content-center align-items-center text-center">
+                            <img src="{{album.images.0.url}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">{{album.name}}</h6>
+                                <a href="/albums/{{album.name}}/{{album.id}}" class="btn btn-primary">View Songs</a>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+        </div>
+    </div>
+</div>
+
+

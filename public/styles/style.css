@@ -30,10 +30,25 @@
 .btn-primary{
     background-color: #1ab26b;
     border: #109959;
+    border-color: #1ab26b;
+
 }
 
 .btn-primary:hover{
     background-color: #109959;
-    border: #109959;
+    border: #1ab26b;
+    border-color: #109959;
+
 }
 
+a {
+    color: #1ab26b;
+  }
+
+
+  .green-card{
+    background-color: #1ab26b;
+    border: #109959;
+    border-color: #1ab26b;
+
+}

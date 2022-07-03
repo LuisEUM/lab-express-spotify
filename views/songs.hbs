@@ -1,0 +1,25 @@
+<div class="d-flex justify-content-center align-items-center">
+    <div class="d-flex justify-content-center bg-gradient shadow rounded p-4 col-sm-8">
+        <div class="row">
+            <hr>
+                <h1 class="mb-4 text-center">Songs</h1>
+                {{#each songs as |song|}}
+                    <div class="col-6">
+                        <div class="card mb-4 shadow d-flex justify-content-center align-items-center text-center green-card">
+                            <div class="card-body col-12">
+                                <figure>
+                                    <figcaption><strong>{{song.name}}</strong></figcaption>
+                                    <audio controls src={{song.preview_url}} class="embed-responsive-item">
+                                            Your browser does not support the
+                                            <code> audio </code> element.
+                                    </audio>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+        </div>
+    </div>
+</div>
+
+
